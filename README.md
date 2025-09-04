@@ -1,44 +1,12 @@
-# cadastro #
+# Plugin de cadastro de alunos no Moodle
 
-TO-DO Describe the plugin shortly here.
+Este plugin tem como objetivo **facilitar o processo de cadastro de alunos em cursos do Moodle**.
 
-TO-DO Provide more detailed description here.
+---
 
-## Installing via uploaded ZIP file ##
+##  Funcionalidades
 
-1. Log in to your Moodle site as an admin and go to _Site administration >
-   Plugins > Install plugins_.
-2. Upload the ZIP file with the plugin code. You should only be prompted to add
-   extra details if your plugin type is not automatically detected.
-3. Check the plugin validation report and finish the installation.
-
-## Installing manually ##
-
-The plugin can be also installed by putting the contents of this directory to
-
-    {your/moodle/dirroot}/local/cadastro
-
-Afterwards, log in to your Moodle site as an admin and go to _Site administration >
-Notifications_ to complete the installation.
-
-Alternatively, you can run
-
-    $ php admin/cli/upgrade.php
-
-to complete the installation from the command line.
-
-## License ##
-
-2025 Your Name <you@example.com>
-
-This program is free software: you can redistribute it and/or modify it under
-the terms of the GNU General Public License as published by the Free Software
-Foundation, either version 3 of the License, or (at your option) any later
-version.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY
-WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-PARTICULAR PURPOSE.  See the GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along with
-this program.  If not, see <https://www.gnu.org/licenses/>.
+- Permite o **upload de um arquivo CSV** contendo:
+  - **Username do aluno** (CPF)
+  - **Nome breve do curso** (ex.: `2024.2-DIL001`)
+  - **Nome do grupo** (ex.: `Polo_Mossoro`)
