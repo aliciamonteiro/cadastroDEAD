@@ -26,3 +26,10 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Cadastro';
+$string['upload_title'] = 'Faça o upload do seu arquivo';
+$string['file_to_upload'] = 'Arquivo CSV';
+$string['submit_button'] = 'Enviar';
+$string['file_content_title'] = 'Conteúdo do arquivo';
+$string['header_username'] = 'Username (CPF)';
+$string['header_curso'] = 'Nome breve do curso';
+$string['header_grupo'] = 'Grupo (Polo)';
